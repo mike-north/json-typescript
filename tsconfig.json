@@ -1,27 +1,24 @@
 {
-  "compilerOptions": {
-	  "target": "es6",
-	  "module": "commonjs",
-	  "experimentalDecorators": true,
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"experimentalDecorators": true,
 		"noImplicitAny": true,
-		"lib": [
-			"es2015"
-		],
 		"noImplicitThis": true,
 		"allowSyntheticDefaultImports": true,
-	  "strictFunctionTypes": true,
-	  "strictNullChecks": true,
-	  "sourceMap": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"sourceMap": true,
 		"noUnusedParameters": true,
 		"noEmitOnError": true,
 		"noEmit": true
-  },
-  "exclude": [
-	  "node_modules/**/*"
-  ],
-  "include": [
+	},
+	"exclude": [
+		"node_modules/**/*"
+	],
+	"include": [
 		"index.d.ts",
 		"tests/helpers.ts",
 		"tests/**/*test.ts"
-  ]
+	]
 }
