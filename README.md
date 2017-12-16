@@ -5,7 +5,7 @@ TypeScript type information for compile-time validation of [JSON objects](https:
 
 1. Install this package
 ```js
-npm install --save-dev @mikeworks/json.ts
+npm install --save-dev json-typescript
 ```
 
 2. Import the types into the files where you wish to use them
