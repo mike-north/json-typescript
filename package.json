@@ -1,5 +1,5 @@
 {
-  "name": "json.ts",
+  "name": "@mikeworks/json.ts",
   "version": "0.0.1",
   "description": "JSON TypeScript type definitions",
   "main": "index.d.ts",
