@@ -1,4 +1,4 @@
-# JSON.ts <img src="https://travis-ci.org/mike-north/json.ts.svg?branch=master" align='right'>
+# JSON.ts <a href="https://travis-ci.org/mike-north/json.ts"  align='right'><img src="https://travis-ci.org/mike-north/json.ts.svg?branch=master"></a>
 TypeScript type information for compile-time validation of [JSON objects](https://www.json.org/).
 
 ## How to use this
