@@ -6,16 +6,13 @@
 		"noImplicitThis": true,
 		"allowSyntheticDefaultImports": true,
 		"noUnusedParameters": true,
-		"noEmit": true,
-		"typeRoots": [
-			"node_modules/@types",
-			"types"
-		]
+		"noEmit": true
 	},
 	"exclude": [
 		"node_modules/**/*"
 	],
 	"include": [
+		"json",
 		"tests/helpers.ts",
 		"tests/**/*test.ts"
 	]
