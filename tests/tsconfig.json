@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "typeRoots": [
+      ".."
+    ]
+  },
+  "exclude": [
+    "node_modules/**/*",
+    "helpers.ts",
+    "**/*test.ts"
+  ],
+  "include": [
+    "**/*.ts"
+  ]
+}

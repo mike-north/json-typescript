@@ -1,5 +1,5 @@
 # JSON.ts <a href="https://travis-ci.org/mike-north/json.ts"  align='right'><img src="https://travis-ci.org/mike-north/json.ts.svg?branch=master"></a>
-TypeScript type information for compile-time validation of [JSON objects](https://www.json.org/).
+TypeScript ambient type information for compile-time validation of [JSON objects](https://www.json.org/).
 
 ## How to use this
 
@@ -8,16 +8,24 @@ TypeScript type information for compile-time validation of [JSON objects](https:
 npm install --save-dev json-typescript
 ```
 
-2. Import the types into the files where you wish to use them
-```ts
-import 'json-typescript';
+2. Include this module in your `tsconfig.json`'s `typeRoots`
+```json
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/json-typescript"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
 ```
-> **NOTE:** You can add the types across your whole project by opening your `./global.d.ts` ambient type file (or create an empty file if it doesn't yet exist) and adding the same import
 
 3. check to see if json types are validated correctly
 
 ```ts
-import 'json-typescript';
 
 // ✅ This should be OK
 let doc: JSON.Value = {

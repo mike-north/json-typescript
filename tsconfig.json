@@ -11,13 +11,16 @@
 		"sourceMap": true,
 		"noUnusedParameters": true,
 		"noEmitOnError": true,
-		"noEmit": true
+		"noEmit": true,
+		"lib": [
+			"es2015"
+		]
 	},
 	"exclude": [
 		"node_modules/**/*"
 	],
 	"include": [
-		"index.d.ts",
+		"json/index.d.ts",
 		"tests/helpers.ts",
 		"tests/**/*test.ts"
 	]

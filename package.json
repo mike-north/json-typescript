@@ -1,7 +1,7 @@
 {
   "name": "json-typescript",
-  "version": "0.0.2",
-  "description": "JSON TypeScript type definitions",
+  "version": "0.0.3",
+  "description": "TypeScript ambient type definitions for JSON objects",
   "main": "index.d.ts",
   "scripts": {
     "test": "tsc && ./node_modules/.bin/mocha --opts tests/mocha.opts",
