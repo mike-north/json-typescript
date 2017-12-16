@@ -10,14 +10,14 @@ npm install --save-dev json-typescript
 
 2. Import the types into the files where you wish to use them
 ```ts
-import 'json.ts';
+import 'json-typescript';
 ```
 > **NOTE:** You can add the types across your whole project by opening your `./global.d.ts` ambient type file (or create an empty file if it doesn't yet exist) and adding the same import
 
 3. check to see if json types are validated correctly
 
 ```ts
-import 'json.ts';
+import 'json-typescript';
 
 // ✅ This should be OK
 let doc: JSON.Value = {
