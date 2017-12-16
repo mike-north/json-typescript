@@ -3,21 +3,19 @@
 		"target": "es6",
 		"module": "commonjs",
 		"experimentalDecorators": true,
-		"noImplicitAny": true,
 		"noImplicitThis": true,
 		"allowSyntheticDefaultImports": true,
-		"sourceMap": true,
 		"noUnusedParameters": true,
 		"noEmit": true,
-		"lib": [
-			"es2015"
+		"typeRoots": [
+			"node_modules/@types",
+			"types"
 		]
 	},
 	"exclude": [
 		"node_modules/**/*"
 	],
 	"include": [
-		"json/index.d.ts",
 		"tests/helpers.ts",
 		"tests/**/*test.ts"
 	]
