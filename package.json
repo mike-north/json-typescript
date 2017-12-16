@@ -1,6 +1,6 @@
 {
   "name": "json-typescript",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript ambient type definitions for JSON objects",
   "main": "index.d.ts",
   "scripts": {

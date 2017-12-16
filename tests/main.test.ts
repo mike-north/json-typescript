@@ -14,14 +14,6 @@ class JSONTests {
 		);
 	}
 
-	@test('symbols are not allowed in JSON values')
-	async noSymbols() {
-		await assertTsThrows(
-			join(__dirname, 'examples/symbol.ts'),
-			/is not assignable to type 'Value'/
-		);
-	}
-
 	@test('JSON.Object is not considered a JSON.Array')
 	async arrayIsntObject() {
 		await assertTsThrows(

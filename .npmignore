@@ -1,0 +1,7 @@
+.vscode
+tests
+node_modules
+.editorconfig
+.prettierrc
+.travis.yml
+nodemon.json

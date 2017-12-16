@@ -6,11 +6,8 @@
 		"noImplicitAny": true,
 		"noImplicitThis": true,
 		"allowSyntheticDefaultImports": true,
-		"strictFunctionTypes": true,
-		"strictNullChecks": true,
 		"sourceMap": true,
 		"noUnusedParameters": true,
-		"noEmitOnError": true,
 		"noEmit": true,
 		"lib": [
 			"es2015"
