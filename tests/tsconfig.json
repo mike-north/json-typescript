@@ -1,16 +1,24 @@
 {
-  "extends": "../tsconfig",
   "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "noImplicitThis": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
     "typeRoots": [
+      "../node_modules/@types",
       ".."
     ]
   },
   "exclude": [
-    "node_modules/**/*",
+    "../node_modules/**/*",
     "helpers.ts",
-    "**/*test.ts"
+    "tests/**/*test.ts"
   ],
   "include": [
+    "../json/index.d.ts",
     "**/*.ts"
   ]
 }
