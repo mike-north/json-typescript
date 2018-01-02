@@ -1,4 +1,6 @@
 # JSON.ts <a href="https://travis-ci.org/mike-north/json.ts"  align='right'><img src="https://travis-ci.org/mike-north/json.ts.svg?branch=master"></a>
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/json-typescript.svg)](https://greenkeeper.io/)
 TypeScript ambient type information for compile-time validation of [JSON objects](https://www.json.org/).
 
 ## How to use this
