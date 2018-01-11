@@ -1,2 +1,2 @@
 import JSON from '../../index';
-let o: JSON.Array = { foo: 'bar' };
+let o: JSON.Arr = { foo: 'bar' };

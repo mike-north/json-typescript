@@ -14,7 +14,7 @@ class JSONTests {
 		);
 	}
 
-	@test('JSON.Object is not considered a JSON.Array')
+	@test('JSON.Object is not considered a JSON.Arr')
 	async arrayIsntObject() {
 		await assertTsThrows(
 			join(__dirname, 'examples/array-isnt-object.ts'),
@@ -22,11 +22,11 @@ class JSONTests {
 		);
 	}
 
-	@test('JSON.Array is not considered a JSON.Object')
+	@test('JSON.Arr is not considered a JSON.Object')
 	async objectIsntArray() {
 		await assertTsThrows(
 			join(__dirname, 'examples/object-isnt-array.ts'),
-			/is not assignable to type 'Array'/
+			/is not assignable to type 'Arr'/
 		);
 	}
 
@@ -66,7 +66,7 @@ class JSONTests {
 
 	@test('JSON.Array')
 	jsonArray() {
-		let v: JSON.Array = [
+		let v: JSON.Arr = [
 			{
 				a: {
 					b: {

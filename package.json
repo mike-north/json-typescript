@@ -1,6 +1,6 @@
 {
   "name": "json-typescript",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "TypeScript type definitions for JSON objects",
   "main": "index.ts",
   "scripts": {
