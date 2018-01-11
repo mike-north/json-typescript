@@ -1,4 +1,4 @@
-# JSON.ts <a href="https://travis-ci.org/mike-north/json-typescript"  align='right'><img src="https://travis-ci.org/mike-north/json-typescript.svg?branch=master"></a>
+# JSON-typescript <a href="https://travis-ci.org/mike-north/json-typescript"  align='right'><img src="https://travis-ci.org/mike-north/json-typescript.svg?branch=master"></a>
 TypeScript type information for compile-time validation of [JSON objects](https://www.json.org/).
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/json-typescript.svg)](https://greenkeeper.io/)
