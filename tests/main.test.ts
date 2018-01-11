@@ -3,7 +3,7 @@ import { assert } from 'chai';
 import { check, checkDirectory } from 'typings-tester';
 import { join } from 'path';
 import { assertTsThrows } from './helpers';
-
+import JSON from '../index';
 @suite('JSON Type Definition Tests')
 class JSONTests {
 	@test('functions are not allowed in JSON values')

@@ -1,5 +1,5 @@
 # JSON.ts <a href="https://travis-ci.org/mike-north/json-typescript"  align='right'><img src="https://travis-ci.org/mike-north/json-typescript.svg?branch=master"></a>
-TypeScript ambient type information for compile-time validation of [JSON objects](https://www.json.org/).
+TypeScript type information for compile-time validation of [JSON objects](https://www.json.org/).
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/json-typescript.svg)](https://greenkeeper.io/)
 
@@ -10,27 +10,18 @@ TypeScript ambient type information for compile-time validation of [JSON objects
 npm install --save-dev json-typescript
 ```
 
-2. Include this module in your `tsconfig.json`'s `typeRoots`
-```json
-{
-  "compilerOptions": {
-    "typeRoots": [
-      "node_modules/@types",
-      "node_modules/json-typescript"
-    ]
-  },
-  "exclude": [
-    "node_modules"
-  ]
-}
+2. Import this package
+```ts
+import _JSON from 'json-typescript';
 ```
 
-3. check to see if json types are validated correctly
+3. Check to see if json types are validated correctly
 
 ```ts
+import _JSON from 'json-typescript';
 
 // ✅ This should be OK
-let doc: JSON.Value = {
+let doc: _JSON.Value = {
   data: {
     type: 'articles',
     id: '1'
@@ -38,14 +29,14 @@ let doc: JSON.Value = {
 };
 
 // ⛔️ This should NOT be OK ( functions are not allowed )
-let doc: JSON.Value = {
+let doc: _JSON.Value = {
   foo() {
     return bar;
   }
 };
 
 // ⛔️ This should NOT be OK ( Array is not a JSON.Object )
-let doc: JSON.Object = [];
+let doc: _JSON.Object = [];
 ```
 
 ## Copyright

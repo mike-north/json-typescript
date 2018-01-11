@@ -12,7 +12,7 @@
 		"node_modules/**/*"
 	],
 	"include": [
-		"json",
+		"index.ts",
 		"tests/helpers.ts",
 		"tests/**/*test.ts"
 	]

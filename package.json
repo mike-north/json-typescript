@@ -1,8 +1,8 @@
 {
   "name": "json-typescript",
-  "version": "0.0.6",
-  "description": "TypeScript ambient type definitions for JSON objects",
-  "main": "index.d.ts",
+  "version": "0.0.7",
+  "description": "TypeScript type definitions for JSON objects",
+  "main": "index.ts",
   "scripts": {
     "test": "tsc && ./node_modules/.bin/mocha --opts tests/mocha.opts",
     "lint": "./node_modules/.bin/tslint -p .",
@@ -10,20 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mike-north/json.ts.git"
+    "url": "git+https://github.com/mike-north/json-typescript.git"
   },
   "keywords": [
     "jsonapi",
-    "typescript",
-    "ember-data",
-    "emberjs"
+    "typescript"
   ],
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mike-north/json.ts/issues"
+    "url": "https://github.com/mike-north/json-typescript/issues"
   },
-  "homepage": "https://github.com/mike-north/json.ts#readme",
+  "homepage": "https://github.com/mike-north/json-typescript#readme",
   "devDependencies": {
     "@types/chai": "^4.0.10",
     "@types/mocha": "^2.2.44",
