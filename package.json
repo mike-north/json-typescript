@@ -28,7 +28,7 @@
     "chai": "^4.1.2",
     "chalk": "^2.3.0",
     "dtslint": "^0.2.0",
-    "mocha": "^4.0.1",
+    "mocha": "^5.1.1",
     "mocha-typescript": "^1.1.12",
     "nodemon": "^1.12.7",
     "ts-node": "^4.0.1",
