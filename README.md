@@ -1,4 +1,5 @@
-# JSON-typescript <a href="https://travis-ci.org/mike-north/json-typescript"  align='right'><img src="https://travis-ci.org/mike-north/json-typescript.svg?branch=master"></a>
+# JSON-typescript 
+
 TypeScript type information for compile-time validation of [JSON objects](https://www.json.org/).
 
 [![Build Status](https://travis-ci.org/mike-north/json-typescript.svg?branch=master)](https://travis-ci.org/mike-north/json-typescript)
