@@ -1,7 +1,8 @@
 # JSON-typescript <a href="https://travis-ci.org/mike-north/json-typescript"  align='right'><img src="https://travis-ci.org/mike-north/json-typescript.svg?branch=master"></a>
 TypeScript type information for compile-time validation of [JSON objects](https://www.json.org/).
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/json-typescript.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/mike-north/json-typescript.svg?branch=master)](https://travis-ci.org/mike-north/json-typescript)
+[![Version](https://img.shields.io/npm/v/json-typescript.svg)](https://www.npmjs.com/package/json-typescript)
 
 ## How to use this
 
