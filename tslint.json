@@ -5,6 +5,7 @@
         "ban-types": false,
         "jsdoc-format": false,
         "no-misused-new": false,
+        "file-name-casing": false,
 
         // these are disabled because of rfc176 module exports
         "strict-export-declare-modifiers": false,

@@ -1,9 +1,8 @@
 language: node_js
-node_js:
-- 'stable'
+node_js: stable
+yarn: true
 
-before_install: yarn global add greenkeeper-lockfile@1
-
-before_script: greenkeeper-lockfile-update
-
-after_script: greenkeeper-lockfile-upload
+before_script: yarn global add codecov
+script:
+  - node_modules/.bin/nyc yarn test && yarn travis-deploy-once "yarn semantic-release"
+after_success: codecov
