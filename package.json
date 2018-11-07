@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/mike-north/json-typescript#readme",
   "devDependencies": {
+    "@mike-north/js-lib-renovate-config": "^0.0.1",
     "@types/chai": "^4.0.10",
     "@types/mocha": "^2.2.44",
     "chai": "^4.1.2",
