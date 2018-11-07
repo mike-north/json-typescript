@@ -20,10 +20,10 @@ import * as _JSON from 'json-typescript';
 3. Check to see if json types are validated correctly
 
 ```ts
-import * as _JSON from 'json-typescript';
+import * as { Value as JSONValue, Object as JSONObject } from 'json-typescript';
 
 // ✅ This should be OK
-let doc: _JSON.Value = {
+let doc: JSONValue = {
   data: {
     type: 'articles',
     id: '1'
@@ -31,14 +31,14 @@ let doc: _JSON.Value = {
 };
 
 // ⛔️ This should NOT be OK ( functions are not allowed )
-let doc: _JSON.Value = {
+let doc: JSONValue = {
   foo() {
     return bar;
   }
 };
 
-// ⛔️ This should NOT be OK ( Array is not a JSON.Object )
-let doc: _JSON.Object = [];
+// ⛔️ This should NOT be OK ( Array is not a JSONObject )
+let doc: JSONObject = [];
 ```
 
 ## Copyright
