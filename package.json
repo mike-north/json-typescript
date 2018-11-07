@@ -6,7 +6,9 @@
   "scripts": {
     "test": "tsc && ./node_modules/.bin/mocha --opts tests/mocha.opts",
     "lint": "./node_modules/.bin/tslint -p .",
-    "watch": "./node_modules/.bin/nodemon $(which npm) test"
+    "watch": "./node_modules/.bin/nodemon $(which npm) test",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
