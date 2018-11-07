@@ -1,4 +1,4 @@
-import JSON from '../../index';
+import * as JSON from '../../index';
 let o: JSON.Value = {
 	b: {
 		c: {

@@ -1,9 +1,8 @@
-import { suite, test, slow, timeout, only } from 'mocha-typescript';
-import { assert } from 'chai';
-import { check, checkDirectory } from 'typings-tester';
+import { suite, test } from 'mocha-typescript';
 import { join } from 'path';
 import { assertTsThrows } from './helpers';
-import JSON from '../index';
+import * as J from '../index';
+
 @suite('JSON Type Definition Tests')
 class JSONTests {
 	@test('functions are not allowed in JSON values')
@@ -32,7 +31,7 @@ class JSONTests {
 
 	@test('Some valid JSON values')
 	validValues() {
-		let v: JSON.Value;
+		let v: J.Value;
 		v = 'string';
 		v = 4;
 		v = true;
@@ -42,7 +41,7 @@ class JSONTests {
 
 	@test('Nested JSON values')
 	nestedValues() {
-		let v: JSON.Value = {
+		let v: J.Value = {
 			a: {
 				b: {
 					c: 'd',
@@ -54,7 +53,7 @@ class JSONTests {
 
 	@test('JSON.Object')
 	jsonObject() {
-		let v: JSON.Value = {
+		let v: J.Value = {
 			a: {
 				b: {
 					c: 'd',
@@ -66,7 +65,7 @@ class JSONTests {
 
 	@test('JSON.Array')
 	jsonArray() {
-		let v: JSON.Arr = [
+		let v: J.Arr = [
 			{
 				a: {
 					b: {

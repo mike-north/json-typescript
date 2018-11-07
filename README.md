@@ -12,13 +12,13 @@ npm install --save-dev json-typescript
 
 2. Import this package
 ```ts
-import _JSON from 'json-typescript';
+import * as _JSON from 'json-typescript';
 ```
 
 3. Check to see if json types are validated correctly
 
 ```ts
-import _JSON from 'json-typescript';
+import * as _JSON from 'json-typescript';
 
 // ✅ This should be OK
 let doc: _JSON.Value = {
