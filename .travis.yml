@@ -11,6 +11,7 @@ before_install:
 before_script: yarn global add codecov
 
 script:
+  - commitlint-travis
   - node_modules/.bin/nyc yarn test && yarn travis-deploy-once "yarn semantic-release"
 
 after_success: codecov
