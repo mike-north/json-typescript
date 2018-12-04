@@ -10,8 +10,35 @@ before_install:
 
 before_script: yarn global add codecov
 
-script:
-  - commitlint-travis
-  - node_modules/.bin/nyc yarn test && yarn travis-deploy-once "yarn semantic-release"
+stages:
+  - 'Test'
+  - name: 'Deploy'
+    if: branch = master AND type = push
 
-after_success: codecov
+jobs:
+  fail_fast: true
+  include:
+    - stage: 'Test'
+      name: 'Conventional Commits'
+      script: commitlint-travis
+    - name: 'Lint'
+      script: yarn lint
+    - name: 'Floating Dependencies'
+      after_success: codecov
+    - name: 'Fixed Dependencies'
+      install:
+        - yarn install --non-interactive
+      script: yarn test
+
+    - stage: 'Deploy'
+      name: 'Publish to npm'
+      install:
+        - yarn install --non-interactive
+      script: yarn semantic-release
+
+install:
+  - yarn install --no-lockfile --non-interactive
+
+script:
+  - node_modules/.bin/nyc yarn test
+
