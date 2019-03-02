@@ -31,7 +31,7 @@
     "@mike-north/js-lib-semantic-release-config": "1.0.1",
     "@types/chai": "4.1.7",
     "@types/mocha": "5.2.6",
-    "@types/node": "10.12.27",
+    "@types/node": "10.12.29",
     "chai": "4.2.0",
     "chalk": "2.4.2",
     "dtslint": "0.4.9",
