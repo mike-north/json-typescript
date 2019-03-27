@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/mike-north/json-typescript/compare/v1.1.0...v1.1.1) (2019-03-27)
+
+
+### Bug Fixes
+
+* publish .d.ts files ([0285f9a](https://github.com/mike-north/json-typescript/commit/0285f9a))
+
 # [1.1.0](https://github.com/mike-north/json-typescript/compare/v1.0.0...v1.1.0) (2018-11-07)
 
 
