@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/mike-north/json-typescript/compare/v1.1.1...v1.1.2) (2019-03-27)
+
+
+### Bug Fixes
+
+* ensure build step happens in CI ([1bbad53](https://github.com/mike-north/json-typescript/commit/1bbad53))
+
 ## [1.1.1](https://github.com/mike-north/json-typescript/compare/v1.1.0...v1.1.1) (2019-03-27)
 
 
