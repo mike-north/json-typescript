@@ -8,8 +8,6 @@ before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
   - export PATH=$HOME/.yarn/bin:$PATH
 
-before_script: yarn global add codecov
-
 stages:
   - 'Test'
   - name: 'Deploy'
@@ -24,21 +22,18 @@ jobs:
     - name: 'Lint'
       script: yarn lint
     - name: 'Floating Dependencies'
-      after_success: codecov
-    - name: 'Fixed Dependencies'
       install:
-        - yarn install --non-interactive
-      script: yarn test
-
+        - yarn install --no-lockfile --non-interactive
+    - name: 'Fixed Dependencies'
+	  before_script: yarn build && yarn global add codecov
+	  script:
+		- node_modules/.bin/nyc yarn test
+      after_success: codecov
     - stage: 'Deploy'
       name: 'Publish to npm'
-      install:
-        - yarn install --non-interactive
       script: yarn semantic-release
 
 install:
-  - yarn install --no-lockfile --non-interactive
+  - yarn install --non-interactive
 
-script:
-  - node_modules/.bin/nyc yarn test
 
