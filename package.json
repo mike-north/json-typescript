@@ -4,9 +4,10 @@
   "description": "TypeScript type definitions for JSON objects",
   "main": "index.ts",
   "scripts": {
-    "test": "tsc && ./node_modules/.bin/mocha --opts tests/mocha.opts",
-    "lint": "./node_modules/.bin/tslint -p .",
-    "watch": "./node_modules/.bin/nodemon $(which npm) test",
+    "build": "tsc",
+    "test": "./node_modules/.bin/mocha --opts tests/mocha.opts",
+    "lint": "tslint -p .",
+    "watch": "nodemon $(which npm) test",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -37,7 +38,6 @@
     "dtslint": "0.4.9",
     "husky": "1.2.1",
     "mocha": "6.0.2",
-    "mocha-typescript": "1.1.17",
     "nodemon": "1.18.10",
     "nyc": "13.2.0",
     "semantic-release": "15.12.5",
@@ -52,6 +52,7 @@
       "@commitlint/config-conventional"
     ]
   },
+  "types": "dist/index.d.ts",
   "husky": {
     "hooks": {
       "commit-msg": "./node_modules/.bin/commitlint -e $HUSKY_GIT_PARAMS"

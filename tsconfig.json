@@ -6,14 +6,16 @@
 		"noImplicitThis": true,
 		"allowSyntheticDefaultImports": true,
 		"noUnusedParameters": true,
-		"noEmit": true
+		"outDir": "dist",
+		"declaration": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"declarationMap": true
 	},
 	"exclude": [
-		"node_modules/**/*"
+		"dist"
 	],
 	"include": [
-		"index.ts",
-		"tests/helpers.ts",
-		"tests/**/*test.ts"
+		"index.ts"
 	]
 }
