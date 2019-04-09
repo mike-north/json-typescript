@@ -1,0 +1,9 @@
+# `Value`
+
+---
+
+`typeAlias`
+
+> ```ts
+> Value
+> ```

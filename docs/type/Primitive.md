@@ -1,0 +1,9 @@
+# `Primitive`
+
+---
+
+`typeAlias`
+
+> ```ts
+> Primitive
+> ```
