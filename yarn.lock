@@ -1052,7 +1052,7 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@snap-doc/cli@^0.10.7":
+"@snap-doc/cli@0.10.7":
   version "0.10.7"
   resolved "https://registry.yarnpkg.com/@snap-doc/cli/-/cli-0.10.7.tgz#0b43bfa34f1a2f2613766b543235f00431711e8f"
   integrity sha512-po9XUo078KW7anMxTe3Q5wTzwzLnSBsm/AaoSyz/5XiiiAl2gJwe4HYS8o9FzUpubKWgIYUKl0CIOUi4uZBw+Q==
@@ -1065,7 +1065,7 @@
     chalk "^2.4.1"
     commander "^2.19.0"
     debug "^4.1.1"
-    doc-tester sparshithNR/doc-tester#open-to-external
+    doc-tester "github:sparshithNR/doc-tester#open-to-external"
     tmp "^0.1.0"
     typescript "^3.4.1"
     window-size "^1.1.1"
@@ -2538,8 +2538,9 @@ dir-glob@^2.0.0, dir-glob@^2.2.2:
   dependencies:
     path-type "^3.0.0"
 
-doc-tester@sparshithNR/doc-tester#open-to-external:
+"doc-tester@github:sparshithNR/doc-tester#open-to-external":
   version "0.0.1"
+  uid "2db6a7b96464e51b4ba74ffbc1d8147cae2be99c"
   resolved "https://codeload.github.com/sparshithNR/doc-tester/tar.gz/2db6a7b96464e51b4ba74ffbc1d8147cae2be99c"
   dependencies:
     "@babel/core" "^7.2.2"
@@ -3587,7 +3588,7 @@ import-lazy@^2.1.0:
   resolved "https://registry.yarnpkg.com/import-lazy/-/import-lazy-2.1.0.tgz#05698e3d45c88e8d7e9d92cb0584e77f096f3e43"
   integrity sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
 
-import-local@^2.0.0:
+import-local@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/import-local/-/import-local-2.0.0.tgz#55070be38a5993cf18ef6db7e961f5bee5c5a09d"
   integrity sha512-b6s04m3O+s3CGSbqDIyP4R6aAwAeYlVq9+WUWep6iHa8ETRf9yei1U48C5MmfJmV9AiLYYBKPMq/W+/WRpQmCQ==
