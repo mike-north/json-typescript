@@ -31,7 +31,7 @@
     "@commitlint/travis-cli": "7.5.2",
     "@mike-north/js-lib-renovate-config": "1.1.5",
     "@mike-north/js-lib-semantic-release-config": "1.0.1",
-    "@snap-doc/cli": "0.10.7",
+    "@snap-doc/cli": "0.10.9",
     "@types/chai": "4.1.7",
     "@types/mocha": "5.2.6",
     "@types/node": "10.12.29",
