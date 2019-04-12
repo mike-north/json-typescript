@@ -1052,60 +1052,61 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@snap-doc/cli@0.10.7":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@snap-doc/cli/-/cli-0.10.7.tgz#0b43bfa34f1a2f2613766b543235f00431711e8f"
-  integrity sha512-po9XUo078KW7anMxTe3Q5wTzwzLnSBsm/AaoSyz/5XiiiAl2gJwe4HYS8o9FzUpubKWgIYUKl0CIOUi4uZBw+Q==
+"@snap-doc/cli@0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@snap-doc/cli/-/cli-0.12.0.tgz#46e6e099ee41fd771f527fa459e02807dbbfe1b9"
+  integrity sha512-BxG3vCTmHQfjz5E4XEPzHz0VxfypGwPVgkkzcPoTjnYUtT4jTOUdlMi4A4i3f754tu8e6CPA0qPF1d8xKmbSsw==
   dependencies:
     "@code-to-json/utils-node" "^1.0.0-rc.0"
     "@code-to-json/utils-ts" "^1.0.0-rc.0"
     "@mike-north/types" "^1.1.0"
-    "@snap-doc/core" "^0.11.6"
-    "@snap-doc/markdown-emitter" "^0.11.7"
+    "@snap-doc/core" "^0.13.0"
+    "@snap-doc/markdown-emitter" "^0.13.0"
     chalk "^2.4.1"
     commander "^2.19.0"
     debug "^4.1.1"
     doc-tester "github:sparshithNR/doc-tester#open-to-external"
+    import-local "^2.0.0"
     tmp "^0.1.0"
-    typescript "^3.4.1"
+    typescript "^3.4.3"
     window-size "^1.1.1"
 
-"@snap-doc/core@^0.11.6":
-  version "0.11.6"
-  resolved "https://registry.yarnpkg.com/@snap-doc/core/-/core-0.11.6.tgz#499d8ba71c0789ddeb2c8c440aa3599675caf2c0"
-  integrity sha512-f4zJUke76tWjF8KF2dWxvjz2NnhBeltC3/JmiXqPikaV6Jp2+wJL2lzWHrSrH0Lab3wTEnV8RMEAwVGSxwg2vg==
+"@snap-doc/core@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@snap-doc/core/-/core-0.13.0.tgz#0ba75e43945589a0a5f28e6264deee73a683629a"
+  integrity sha512-mhvYJXGGnG1g7sVnfv2KSUxEaqr/uYmeLsQrszgSzAVFfNYZqpU6fA33j10djX/1VC8elEUYPuK4SU1A6qJ4eQ==
   dependencies:
     "@code-to-json/core" "^1.0.0-rc.0"
     "@code-to-json/formatter" "^1.0.0-rc.0"
     "@code-to-json/formatter-linker" "^1.0.0-rc.0"
     "@mike-north/types" "^1.1.0"
-    "@snap-doc/emitter" "^0.9.6"
-    "@snap-doc/types" "^0.6.6"
-    "@snap-doc/utils" "^0.6.6"
+    "@snap-doc/emitter" "^0.10.0"
+    "@snap-doc/types" "^0.7.0"
+    "@snap-doc/utils" "^0.7.0"
     chalk "^2.4.1"
     debug "^4.1.1"
-    typescript "^3.4.1"
+    typescript "^3.4.3"
 
-"@snap-doc/emitter@^0.9.6":
-  version "0.9.6"
-  resolved "https://registry.yarnpkg.com/@snap-doc/emitter/-/emitter-0.9.6.tgz#270ad6be08da521c90b919722b3ace879cc145ad"
-  integrity sha512-qu0PkX/CTg6U8GxZIdmjfdf8wpEKG9XuydcTeljrhcmwIG7PdM3Q8ytXtJTaiEogn5o2Yb9imFYRUx4MdQbZAg==
+"@snap-doc/emitter@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@snap-doc/emitter/-/emitter-0.10.0.tgz#a34e08fb4d2f776b6c9f21721a96ff82bfffd3e8"
+  integrity sha512-97EbMvVphmKRVeztQjYSL4NFJAFftiVxX9pEQPOZ8h5u/lbgVJ7jwSZtTXrNxjRUe5GKYcbOBinHkQ7y9AFJkA==
   dependencies:
     "@code-to-json/formatter" "^1.0.0-rc.0"
     "@code-to-json/formatter-linker" "^1.0.0-rc.0"
     "@code-to-json/utils-ts" "^1.0.0-rc.0"
     "@mike-north/types" "^1.1.0"
-    "@snap-doc/types" "^0.6.6"
+    "@snap-doc/types" "^0.7.0"
     debug "^4.1.1"
 
-"@snap-doc/markdown-emitter@^0.11.7":
-  version "0.11.7"
-  resolved "https://registry.yarnpkg.com/@snap-doc/markdown-emitter/-/markdown-emitter-0.11.7.tgz#b315dac4063681298f1384725425b2eb27a2b4c2"
-  integrity sha512-VSRxZBonhk0QEcXqNY9Y37GYeId9hfp4YjTUnq334vI4jzozyaUn6LV2i7qmP5DZDDDbcRmZY0pSEOQyxAZLsQ==
+"@snap-doc/markdown-emitter@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@snap-doc/markdown-emitter/-/markdown-emitter-0.13.0.tgz#b046f55e05baddd342f8a361f8a2e81314de16db"
+  integrity sha512-45JD+jVwNnaQtwaSmUIes/oWMY4RYGgF++x9//oFcjxTGLLIJnBplYd69viXWqyO8Or9lz2+wHfmJTXGUQY4ZQ==
   dependencies:
     "@mike-north/types" "^1.1.0"
-    "@snap-doc/core" "^0.11.6"
-    "@snap-doc/emitter" "^0.9.6"
+    "@snap-doc/core" "^0.13.0"
+    "@snap-doc/emitter" "^0.10.0"
     debug "^4.1.1"
     mdast-builder "^1.0.1"
     mdast-util-toc "^3.0.1"
@@ -1113,20 +1114,20 @@
     remark-parse "^6.0.3"
     remark-stringify "^6.0.4"
 
-"@snap-doc/types@^0.6.6":
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/@snap-doc/types/-/types-0.6.6.tgz#11495a3d4bf3ab5da3d35587106142da4a8e5e8b"
-  integrity sha512-Jk+tYJbAvA0DU1u5Rx4J7awjAb3tx5a/rRfVCf31VJ7S4JFjVCbd3ZSjBikxh9tfeEX+p2CVcem6fHKDf+5QCg==
+"@snap-doc/types@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@snap-doc/types/-/types-0.7.0.tgz#6e25de9dded0e1ff3dcef762738e5299c4268c0e"
+  integrity sha512-hHQE9aRuPiW83ye60xiuvvd9HgY1ENX59Zj8zMnCHEGiYMBHFZXKVKTAXn0+f3fUDfvNH+0+rbhc5VfjgmDL6A==
   dependencies:
     "@code-to-json/comments" "^1.0.0-rc.0"
     "@code-to-json/formatter-linker" "^1.0.0-rc.7"
     "@mike-north/types" "^1.0.7"
-    "@snap-doc/utils" "^0.6.6"
+    "@snap-doc/utils" "^0.7.0"
 
-"@snap-doc/utils@^0.6.6":
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/@snap-doc/utils/-/utils-0.6.6.tgz#ed98e7a96f8191a5881095e0888c4a2fc83963fd"
-  integrity sha512-YLeLWLZ4MCGleI2OiVVed7zwWqlrIZ2uktvYG/5cq4KKdTa6J6+VeDMF7i/z3lSU11EkucxBt/RbiumNLC/kbg==
+"@snap-doc/utils@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@snap-doc/utils/-/utils-0.7.0.tgz#0ece2ead22c3378ee0d1da08b67cd02b17be553d"
+  integrity sha512-5diA7I8pIHDAErpluGQfj7hLtnGica/K9K8tOJQp1qIx6mCZokc1cJkEXQ2cnDOqdNFXBcqNuUAz7FHwAhEMFQ==
   dependencies:
     "@code-to-json/utils" "^1.0.0-rc.18"
     "@mike-north/types" "^1.0.7"
@@ -3588,7 +3589,7 @@ import-lazy@^2.1.0:
   resolved "https://registry.yarnpkg.com/import-lazy/-/import-lazy-2.1.0.tgz#05698e3d45c88e8d7e9d92cb0584e77f096f3e43"
   integrity sha1-BWmOPUXIjo1+nZLLBYTnfwlvPkM=
 
-import-local@2.0.0:
+import-local@2.0.0, import-local@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/import-local/-/import-local-2.0.0.tgz#55070be38a5993cf18ef6db7e961f5bee5c5a09d"
   integrity sha512-b6s04m3O+s3CGSbqDIyP4R6aAwAeYlVq9+WUWep6iHa8ETRf9yei1U48C5MmfJmV9AiLYYBKPMq/W+/WRpQmCQ==
@@ -7329,10 +7330,15 @@ typescript@3.3.4000:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.4000.tgz#76b0f89cfdbf97827e1112d64f283f1151d6adf0"
   integrity sha512-jjOcCZvpkl2+z7JFn0yBOoLQyLoIkNZAs/fYJkUG6VKy6zLPHJGfQJYFHzibB6GJaF/8QrcECtlQ5cpvRHSMEA==
 
-typescript@^3.1.0, typescript@^3.2.4, typescript@^3.4.1:
+typescript@^3.1.0, typescript@^3.2.4:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.2.tgz#9ed4e6475d906f589200193be056f5913caed481"
   integrity sha512-Og2Vn6Mk7JAuWA1hQdDQN/Ekm/SchX80VzLhjKN9ETYrIepBFAd8PkOdOTK2nKt0FCkmMZKBJvQ1dV1gIxPu/A==
+
+typescript@^3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.3.tgz#0eb320e4ace9b10eadf5bc6103286b0f8b7c224f"
+  integrity sha512-FFgHdPt4T/duxx6Ndf7hwgMZZjZpB+U0nMNGVCYPq0rEzWKjEDobm4J6yb3CS7naZ0yURFqdw9Gwc7UOh/P9oQ==
 
 typescript@next:
   version "3.5.0-dev.20190407"
