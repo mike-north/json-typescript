@@ -38,7 +38,7 @@
     "chai": "4.2.0",
     "chalk": "2.4.2",
     "dtslint": "0.4.9",
-    "husky": "1.2.1",
+    "husky": "2.4.0",
     "import-local": "2.0.0",
     "mocha": "6.0.2",
     "nodemon": "1.18.10",
