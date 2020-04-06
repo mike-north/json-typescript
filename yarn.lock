@@ -8085,9 +8085,9 @@ typescript@^3.4.3:
   integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
 
 typescript@next:
-  version "3.9.0-dev.20200405"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.0-dev.20200405.tgz#2cf5c787e9e99043126abcc1cc90f25a3ff8140d"
-  integrity sha512-4z2kgQDaMmhsOkCFCkLBPwgFxjI3Hft7NOzUllQ31YhT5f8oqUjcgpKWL+MX98a0/nVdZqLPTVPMXwNYsl9G+w==
+  version "3.9.0-dev.20200406"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.0-dev.20200406.tgz#78c967dc739d75507370722387f5dd038b138d01"
+  integrity sha512-oDw6MZnp1bMrifgsisvC0Ea3Op8Uyajq88/1EBCi5J8lxuPLDgVTKm3uqArGpcwiX6QphMIWA124ZH2OQx+dzw==
 
 typings-tester@0.3.2:
   version "0.3.2"
