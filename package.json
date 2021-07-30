@@ -36,7 +36,7 @@
     "@types/mocha": "5.2.7",
     "@types/node": "10.12.30",
     "chai": "4.3.1",
-    "chalk": "2.4.2",
+    "chalk": "4.1.2",
     "dtslint": "0.4.9",
     "husky": "2.4.1",
     "import-local": "2.0.0",
