@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/mike-north/json-typescript#readme",
   "devDependencies": {
-    "@commitlint/cli": "8.3.5",
-    "@commitlint/config-conventional": "8.3.4",
-    "@commitlint/travis-cli": "8.3.5",
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
+    "@commitlint/travis-cli": "19.5.0",
     "@mike-north/js-lib-renovate-config": "1.1.5",
     "@mike-north/js-lib-semantic-release-config": "1.0.1",
     "@snap-doc/cli": "0.12.0",
